@@ -29,7 +29,7 @@ std::vector<PairReader::PairType> PairReader::Read(const std::string& fileName, 
   // Parse matches list
   std::ifstream fin(fileName.c_str());
 
-  if(fin == NULL)
+  if(!fin)
   {
     std::stringstream ss;
     ss << "Cannot open file " << fileName;

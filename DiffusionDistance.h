@@ -3,6 +3,7 @@
 
 // Eigen
 #include <Eigen/Dense>
+#include <vector>
 
 
 struct DiffusionDistance

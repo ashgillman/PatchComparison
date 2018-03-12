@@ -3,7 +3,7 @@
 	url = ../Mask.git
 [submodule "PatchProjection"]
 	path = PatchProjection
-	url = ../PatchProjection.git
+	url = ../../ashgillman/PatchProjection.git
 [submodule "Histogram"]
 	path = Histogram
 	url = ../Histogram.git
